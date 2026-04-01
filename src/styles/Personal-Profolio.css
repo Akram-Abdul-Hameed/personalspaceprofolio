@@ -1431,6 +1431,7 @@ a {
 }
 
 .period-yearly {
+  padding-left: 4px;
   color: var(--text-primary);
 }
 

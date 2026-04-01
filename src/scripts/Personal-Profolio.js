@@ -67,7 +67,7 @@
             pricePeriods.forEach(el => {
                 if (isAnnual) {
                     const total = el.dataset.annualTotal;
-                    el.innerHTML = 'per month <span class="period-yearly">($' + total + ' per year)</span>';
+                    el.innerHTML = `Up to <span class="period-yearly"> ${total} </span>`;
                 } else {
                     el.innerHTML = el.dataset.monthly;
                 }
