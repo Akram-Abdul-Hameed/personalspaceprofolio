@@ -175,22 +175,26 @@
 
         <div class="feature-tabs fade-up" role="tablist">
           <button class="feature-tab active" data-tab="dashboard" role="tab">
-            Dashboard
+            Performance
           </button>
           <button class="feature-tab" data-tab="funnels" role="tab">
-            Funnels
+            Responsive Design
           </button>
-          <button class="feature-tab" data-tab="sdk" role="tab">SDK</button>
+          <button class="feature-tab" data-tab="sdk" role="tab">
+            React Apps
+          </button>
           <button class="feature-tab" data-tab="replay" role="tab">
+            UI Development
             Session Replay
           </button>
           <button class="feature-tab" data-tab="privacy" role="tab">
+            Landing Pages
             Privacy
           </button>
         </div>
 
         <div class="feature-panels">
-          <!-- Panel 1: Dashboard -->
+          <!-- Panel 1: Performance -->
           <div class="feature-panel active" data-panel="dashboard">
             <div class="feature-text">
               <div class="feat-icon">
@@ -208,11 +212,9 @@
                   <path d="M21 3v9h-9" />
                 </svg>
               </div>
-              <h3>Real-Time Dashboard</h3>
+              <h3>Optimized Performance</h3>
               <p>
-                Watch your metrics update live with sub-second latency. Custom
-                widgets, drag-and-drop layout, and instant sharing with your
-                team.
+                I build blazing-fast interfaces that pass Core Web Vitals with flying colors, ensuring high engagement and zero bounce rates.
               </p>
               <ul class="feature-bullets">
                 <li>
@@ -226,7 +228,7 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Sub-second data refresh
+                  Clean and lightweight bundle sizes
                 </li>
                 <li>
                   <svg
@@ -239,7 +241,7 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Drag-and-drop widgets
+                  Optimized assets and loading strategy
                 </li>
                 <li>
                   <svg
@@ -252,7 +254,21 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Scheduled email reports
+                  Pixel-perfect rendering & 60fps interactions
+                </li>
+                <li>
+                  <svg
+                    width="15"
+                    height="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  Elimination of layout shifts (CLS)
                 </li>
               </ul>
             </div>
@@ -264,23 +280,23 @@
               <div class="fv-body">
                 <div class="dash-metrics">
                   <div class="dash-metric">
-                    <div class="dm-label">Active Users</div>
-                    <div class="dm-val">3,842</div>
-                    <div class="dm-change up">+12.3%</div>
+                    <div class="dm-label">Lighthouse</div>
+                    <div class="dm-val">99</div>
+                    <div class="dm-change up">Perfect</div>
                   </div>
                   <div class="dash-metric">
-                    <div class="dm-label">Conversion</div>
-                    <div class="dm-val">12.4%</div>
-                    <div class="dm-change up">+2.1%</div>
+                    <div class="dm-label">First Paint</div>
+                    <div class="dm-val">0.5s</div>
+                    <div class="dm-change up">Fast</div>
                   </div>
                   <div class="dash-metric">
-                    <div class="dm-label">Churn</div>
-                    <div class="dm-val">1.8%</div>
-                    <div class="dm-change down">-0.4%</div>
+                    <div class="dm-label">Bundle</div>
+                    <div class="dm-val">12kb</div>
+                    <div class="dm-change up">-40%</div>
                   </div>
                 </div>
                 <div class="dash-chart-area">
-                  <div class="dca-title">Revenue — Last 7 days</div>
+                  <div class="dca-title">Conversion Uplift</div>
                   <svg viewBox="0 0 400 80" preserveAspectRatio="none">
                     <defs>
                       <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
@@ -337,10 +353,9 @@
                   <path d="M6 20v-4" />
                 </svg>
               </div>
-              <h3>Funnel Analytics</h3>
+              <h3>Pixel-Perfect Responsiveness</h3>
               <p>
-                Identify exactly where users drop off and why. Build funnels in
-                seconds and correlate drop-off with user segments.
+                I craft fluid layouts that look stunning on every device, from 4-inch smartphones to 32-inch 4K monitors.
               </p>
               <ul class="feature-bullets">
                 <li>
@@ -354,10 +369,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Visual drop-off analysis
+                  Mobile-first development methodology
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -367,10 +383,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Segment correlation
+                  Mastery of CSS Grid and Flexbox
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -380,7 +397,7 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Historical comparison
+                  Cross-browser testing & consistency
                 </li>
               </ul>
             </div>
@@ -394,67 +411,39 @@
                   <div class="funnel-stage">
                     <div class="funnel-bar-wrap">
                       <div class="funnel-bar-label">
-                        <span>Landing Page</span><span>12,480</span>
+                        <span>Desktop View</span><span>100% Coverage</span>
                       </div>
                       <div class="funnel-track">
                         <div class="funnel-fill" style="width: 100%"></div>
                       </div>
                     </div>
-                    <div class="funnel-drop">&mdash;</div>
                   </div>
                   <div class="funnel-stage">
                     <div class="funnel-bar-wrap">
                       <div class="funnel-bar-label">
-                        <span>Sign Up Started</span><span>8,736</span>
+                        <span>Tablet View</span><span>98% Coverage</span>
                       </div>
                       <div class="funnel-track">
                         <div class="funnel-fill" style="width: 70%"></div>
                       </div>
                     </div>
-                    <div class="funnel-drop">-30%</div>
                   </div>
                   <div class="funnel-stage">
                     <div class="funnel-bar-wrap">
                       <div class="funnel-bar-label">
-                        <span>Email Verified</span><span>6,115</span>
+                        <span>Mobile View</span><span>100% Coverage</span>
                       </div>
                       <div class="funnel-track">
                         <div class="funnel-fill amber" style="width: 49%"></div>
                       </div>
                     </div>
-                    <div class="funnel-drop">-30%</div>
-                  </div>
-                  <div class="funnel-stage">
-                    <div class="funnel-bar-wrap">
-                      <div class="funnel-bar-label">
-                        <span>Onboarding Done</span><span>3,670</span>
-                      </div>
-                      <div class="funnel-track">
-                        <div class="funnel-fill amber" style="width: 29%"></div>
-                      </div>
-                    </div>
-                    <div class="funnel-drop">-40%</div>
-                  </div>
-                  <div class="funnel-stage">
-                    <div class="funnel-bar-wrap">
-                      <div class="funnel-bar-label">
-                        <span>First Action</span><span>2,569</span>
-                      </div>
-                      <div class="funnel-track">
-                        <div
-                          class="funnel-fill green"
-                          style="width: 20.5%"
-                        ></div>
-                      </div>
-                    </div>
-                    <div class="funnel-drop">-30%</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Panel 3: SDK -->
+          <!-- Panel 3: React Apps -->
           <div class="feature-panel" data-panel="sdk">
             <div class="feature-text">
               <div class="feat-icon">
@@ -472,10 +461,9 @@
                   <polyline points="8 6 2 12 8 18" />
                 </svg>
               </div>
-              <h3>One-Line SDK</h3>
+              <h3>Modern Web Applications</h3>
               <p>
-                Drop in a single script tag or npm package. Auto-capture
-                pageviews, clicks, and custom events out of the box.
+                Building complex, state-driven applications using React and Next.js with focus on modularity and user flow.
               </p>
               <ul class="feature-bullets">
                 <li>
@@ -489,10 +477,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Under 4KB gzipped
+                  Component-driven architecture
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -502,10 +491,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Zero config autocapture
+                  Advanced State Management (Redux/Zustand)
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -515,7 +505,7 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  TypeScript-first API
+                  Type-safe development with TypeScript
                 </li>
               </ul>
             </div>
@@ -526,34 +516,22 @@
               </div>
               <div class="fv-body">
                 <div class="code-block">
-                  <span class="c-comment">// Install: npm i @Ultrax/sdk</span
-                  ><br /><br />
-                  <span class="c-key">import</span> { Ultrax }
-                  <span class="c-key">from</span>
-                  <span class="c-str">'@Ultrax/sdk'</span><br /><br />
-                  <span class="c-key">const</span> qx =
-                  <span class="c-key">new</span>
-                  <span class="c-fn">Ultrax</span>({<br />
-                  &nbsp;&nbsp;apiKey:
-                  <span class="c-str">'qx_live_k8x2...'</span>,<br />
-                  &nbsp;&nbsp;autocapture:
-                  <span class="c-key">true</span>,<br />
-                  &nbsp;&nbsp;sessionReplay:
-                  <span class="c-key">true</span>,<br />
-                  })<br /><br />
-                  <span class="c-comment">// Track custom events</span><br />
-                  qx.<span class="c-fn">track</span>(<span class="c-str"
-                    >'checkout'</span
-                  >, {<br />
-                  &nbsp;&nbsp;value: <span class="c-num">49.99</span>,<br />
-                  &nbsp;&nbsp;plan: <span class="c-str">'pro'</span><br />
-                  })
+                  <span class="c-comment">// Modern Functional Component</span><br /><br />
+                  <span class="c-key">const</span> FeatureCard = ({ title, icon }) => {<br />
+                  &nbsp;&nbsp;<span class="c-key">const</span> [isHovered, setHover] = <span class="c-fn">useState</span>(<span class="c-key">false</span>);<br /><br />
+                  &nbsp;&nbsp;<span class="c-key">return</span> (<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="c-key">div</span> onMouseEnter={() => <span class="c-fn">setHover</span>(<span class="c-key">true</span>)}&gt;<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{icon}<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="c-key">h3</span>&gt;{title}&lt;/<span class="c-key">h3</span>&gt;<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span class="c-key">div</span>&gt;<br />
+                  &nbsp;&nbsp;);<br />
+                  };
                 </div>
                 <div class="code-output">
-                  <div class="co-label">Output</div>
+                  <div class="co-label">Status</div>
                   <div class="co-result">
                     <span class="pulse-ring"></span>
-                    Event tracked in 8ms — 200 OK
+                    Component mounted successfully
                   </div>
                 </div>
               </div>
@@ -578,10 +556,9 @@
                   <path d="M12 8v4l3 3" />
                 </svg>
               </div>
-              <h3>Session Replay</h3>
+              <h3>Scalable UI Architecture</h3>
               <p>
-                See exactly what your users see. Replay sessions with
-                pixel-perfect accuracy and zero performance impact on your app.
+                I write maintainable, modular CSS and JavaScript following industry best practices like BEM and Atomic Design.
               </p>
               <ul class="feature-bullets">
                 <li>
@@ -595,10 +572,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Pixel-perfect playback
+                  Adherence to "Clean Code" principles
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -608,10 +586,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Console log capture
+                  Comprehensive technical documentation
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -621,7 +600,7 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Rage click detection
+                  Modular Design System integration
                 </li>
               </ul>
             </div>
@@ -668,29 +647,16 @@
                       class="re-dot"
                       style="background: var(--accent)"
                     ></span>
-                    click</span
-                  >
-                  <span class="replay-event-tag"
-                    ><span
-                      class="re-dot"
-                      style="background: var(--amber)"
-                    ></span>
-                    scroll</span
-                  >
-                  <span class="replay-event-tag"
-                    ><span
-                      class="re-dot"
-                      style="background: var(--rose)"
-                    ></span>
-                    rage_click</span
-                  >
+                    Readable</span>
                   <span class="replay-event-tag"
                     ><span
                       class="re-dot"
                       style="background: var(--green)"
                     ></span>
-                    input</span
-                  >
+                    Reusable</span>
+                  <span class="replay-event-tag"
+                    ><span class="re-dot" style="background: var(--rose)"></span>
+                    DRY</span>
                 </div>
               </div>
             </div>
@@ -714,10 +680,9 @@
                   <path d="M7 11V7a5 5 0 0 1 10 0v4" />
                 </svg>
               </div>
-              <h3>Privacy First</h3>
+              <h3>SEO & Accessibility</h3>
               <p>
-                GDPR and CCPA compliant out of the box. Cookieless tracking,
-                automatic PII masking, and EU hosting available.
+                I ensure your site is visible to search engines and accessible to everyone, following WCAG 2.1 standards.
               </p>
               <ul class="feature-bullets">
                 <li>
@@ -731,10 +696,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  No cookie banners needed
+                  Technical SEO & meta-data optimization
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -744,10 +710,11 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  EU data residency
+                  Strict use of Semantic HTML5
                 </li>
                 <li>
                   <svg
+                    width="15"
                     width="15"
                     height="15"
                     viewBox="0 0 24 24"
@@ -757,7 +724,7 @@
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  SOC 2 Type II certified
+                  ARIA labels & Screen Reader support
                 </li>
               </ul>
             </div>
@@ -781,8 +748,8 @@
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                       </svg>
                     </div>
-                    <h4>GDPR Compliant</h4>
-                    <p>Full compliance with European data regulations</p>
+                    <h4>Technical SEO</h4>
+                    <p>Optimized for search engine crawlers</p>
                   </div>
                   <div class="privacy-card">
                     <div class="pc-icon">
@@ -799,8 +766,8 @@
                         <line x1="9" y1="9" x2="15" y2="15" />
                       </svg>
                     </div>
-                    <h4>No Cookies</h4>
-                    <p>Cookieless tracking — no annoying banners</p>
+                    <h4>A11y</h4>
+                    <p>Accessible to users with disabilities</p>
                   </div>
                   <div class="privacy-card">
                     <div class="pc-icon">
@@ -816,8 +783,8 @@
                         <path d="M7 11V7a5 5 0 0 1 10 0v4" />
                       </svg>
                     </div>
-                    <h4>SOC 2 Type II</h4>
-                    <p>Enterprise-grade security certification</p>
+                    <h4>Safety</h4>
+                    <p>Secure front-end data handling</p>
                   </div>
                   <div class="privacy-card">
                     <div class="pc-icon">
@@ -835,8 +802,8 @@
                         <circle cx="12" cy="10" r="3" />
                       </svg>
                     </div>
-                    <h4>EU Hosting</h4>
-                    <p>Data residency in Frankfurt, Germany</p>
+                    <h4>UX Logic</h4>
+                    <p>Designed for higher conversion rates</p>
                   </div>
                 </div>
               </div>
@@ -851,41 +818,38 @@
       <div class="container">
         <div class="stats-grid">
           <div class="stat-item fade-up">
-            <div class="stat-number" data-target="50" data-suffix="M+">0</div>
-            <div class="stat-label">Events tracked daily</div>
+            <div class="stat-number" data-target="50" data-suffix="+">0</div>
+            <div class="stat-label">Projects Delivered</div>
           </div>
           <div class="stat-item fade-up">
             <div
               class="stat-number"
-              data-target="99.9"
+              data-target="95"
               data-suffix="%"
-              data-decimal="1"
             >
               0
             </div>
-            <div class="stat-label">Uptime SLA</div>
+            <div class="stat-label">Avg. Lighthouse Score</div>
           </div>
           <div class="stat-item fade-up">
             <div
               class="stat-number"
-              data-target="120"
-              data-suffix="+"
-              data-comma="true"
+              data-target="98"
+              data-suffix="%"
             >
               0
             </div>
-            <div class="stat-label">Client worldwide</div>
+            <div class="stat-label">Code Quality Score</div>
           </div>
           <div class="stat-item fade-up">
             <div
               class="stat-number"
-              data-target="50"
-              data-prefix="<"
-              data-suffix="ms"
+              data-target="30"
+              data-suffix="%"
             >
               0
             </div>
-            <div class="stat-label">Query response time</div>
+            <div class="stat-label">Speed Optimization</div>
           </div>
         </div>
       </div>
