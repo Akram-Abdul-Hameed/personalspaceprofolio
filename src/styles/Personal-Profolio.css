@@ -185,7 +185,7 @@ a {
 
 .btn a {
   font-size: 17px;
-  padding: 6px 10px;
+  padding: 4px 9px;
 }
 
 .btn-ghost {
@@ -384,10 +384,27 @@ a {
   display: flex;
   align-items: center;
   gap: 14px;
-  margin: 20px 0 48px 0;
+  margin: 20px 0 10px 0;
   opacity: 0;
   transform: translateY(10px);
   animation: herotext 0.5s ease-in-out 0.5s forwards;
+}
+
+.light-text {
+  position: relative;
+  color: var(--text-muted);
+  margin: 20px 0 35px 0;
+  padding-left: 0px;
+}
+
+.light-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 1px;
+  width: 25%;
+  background-color: var(--text-muted);
 }
 
 @keyframes herotext {
