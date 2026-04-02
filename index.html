@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal - SpaCe</title>
+    <title>Akram — Front-End Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,6 +23,7 @@
         <ul class="nav-links" id="navLinks">
           <li><a href="#hero">Home</a></li>
           <li><a href="#features">Features</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#contact">Contact</a></li>
           <li class="nav-mobile-actions">
@@ -65,12 +66,12 @@
           </p>
           <div class="hero-cta">
             <button class="btn btn-primary">
-              <a href="#" onclick="return false;"
+              <a href="#projects"
                 >View My Work <span class="btn-arrow">&rarr;</span></a
               >
             </button>
             <button class="btn btn-secondary">
-              <a href="#" onclick="return false;">Strat Project</a>
+              <a href="#pricing">Start Project</a>
             </button>
           </div>
 
@@ -80,19 +81,19 @@
             <p class="trusted-label">Trusted by 120+ teams</p>
             <div class="trusted-logos">
               <span class="trusted-logo"
-                ><span class="t-icon"></span> Vercel</span
+                ><span class="t-icon" id="logo1"></span> Vercel</span
               >
               <span class="trusted-logo"
-                ><span class="t-icon"></span> Linear</span
+                ><span class="t-icon" id="logo2"></span> Linear</span
               >
               <span class="trusted-logo"
-                ><span class="t-icon"></span> Raycast</span
+                ><span class="t-icon" id="logo3"></span> Raycast</span
               >
               <span class="trusted-logo"
-                ><span class="t-icon"></span> Resend</span
+                ><span class="t-icon" id="logo4"></span> Resend</span
               >
               <span class="trusted-logo"
-                ><span class="t-icon"></span> Supabase</span
+                ><span class="t-icon" id="logo5"></span> Supabase</span
               >
             </div>
           </div>
@@ -859,6 +860,94 @@
       </div>
     </section>
 
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header projects-header fade-up">
+          <p class="section-label">Proven Expertise</p>
+          <div class="header-flex">
+            <h2 class="section-title">Selected Work</h2>
+            <div class="projects-nav">
+              <button class="nav-btn" id="prevProj" aria-label="Previous Project">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <button class="nav-btn" id="nextProj" aria-label="Next Project">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+          <p class="section-desc">
+            Focused on high-performance web applications, clean UI, and exceptional user experience.
+          </p>
+        </div>
+
+        <div class="projects-showcase fade-up" id="projectSlider">
+          <!-- Project 1 -->
+          <div class="project-mockup">
+            <div class="mockup-header">
+              <div class="mockup-dots"><span></span><span></span><span></span></div>
+              <div class="mockup-address">Personal Profolio</div>
+            </div>
+            <div class="mockup-screen">
+              <img src="./src/assets/Personal-Profolio.png" alt="Profolio">
+            </div>
+            <div class="mockup-info">
+              <div class="info-text">
+                <h3>Personal Profolio</h3>
+                <p>A fast, modern portfolio built for performance <br> and clean design.</p>
+              </div>
+              <div class="mockup-actions">
+                <a href=".\src\projects\My Profile\index.html" class="btn btn-primary btn-sm">Live Demo</a>
+                <a href="#" class="btn btn-secondary btn-sm" title="View Code">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-mockup">
+            <div class="mockup-header">
+              <div class="mockup-dots"><span></span><span></span><span></span></div>
+              <div class="mockup-address">saas-optimized.io</div>
+            </div>
+            <div class="mockup-screen">
+              <img src="https://images.unsplash.com/photo-1551288049-bbbda536639a?auto=format&fit=crop&q=80&w=800" alt="SaaS Landing Page">
+            </div>
+            <div class="mockup-info">
+              <div class="info-text">
+                <h3>SaaS Landing Page</h3>
+                <p>High-converting optimized assets.</p>
+              </div>
+              <div class="mockup-actions">
+                <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                <a href="#" class="btn btn-secondary btn-sm" title="View Code">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-mockup">
+            <div class="mockup-header">
+              <div class="mockup-dots"><span></span><span></span><span></span></div>
+              <div class="mockup-address">ui-library.system</div>
+            </div>
+            <div class="mockup-screen">
+              <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800" alt="Component Library">
+            </div>
+            <div class="mockup-info">
+              <div class="info-text">
+                <h3>Component Library</h3>
+                <p>Modular, reusable UI system.</p>
+              </div>
+              <div class="mockup-actions">
+                <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                <a href="#" class="btn btn-secondary btn-sm" title="View Code">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- PRICING -->
     <section class="section pricing-section" id="pricing">
       <div class="container">
@@ -903,9 +992,12 @@
             >
               Single Page
             </div>
-            <a href="#" class="btn btn-secondary" onclick="return false;"
-              >Get Started</a
-            >
+            <a 
+              href="STRIPE_BASIC_LINK" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn btn-secondary"
+              >Buy Now</a>
             <div class="pricing-divider"></div>
             <ul class="pricing-features">
               <li>
@@ -993,9 +1085,12 @@
             >
               3 Pages
             </div>
-            <a href="#" class="btn btn-primary" onclick="return false;"
-              >Recommended</a
-            >
+            <a 
+              href="STRIPE_PRO_LINK" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn btn-primary"
+              >Get Started</a>
             <div class="pricing-divider"></div>
             <ul class="pricing-features">
               <li>
@@ -1091,13 +1186,16 @@
             <div
               class="pricing-period"
               data-monthly="5 Pages"
-              data-annual-total="per Page"
+              data-annual-total="per Page (Over 5 pages)"
             >
               5 Pages
             </div>
-            <a href="#" class="btn btn-secondary" onclick="return false;"
-              >Contact Sales</a
-            >
+            <a 
+              href="https://wa.me/YOUR_PHONE_NUMBER?text=Hi,%20I'm%20interested%20in%20a%20premium%20web%20project." 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn btn-secondary"
+              >Contact Sellers</a>
             <div class="pricing-divider"></div>
             <ul class="pricing-features">
               <li>
@@ -1187,67 +1285,24 @@
     <!-- SUBSCRIBE -->
     <section class="subscribe-section" id="contact">
       <div class="container">
-        <div class="subscribe-inner fade-up">
-          <h2 class="section-title">Stay in the loop</h2>
+        <div class="subscribe-inner fade-up"> 
+          <h2 class="section-title">Ready to scale your product?</h2>
           <p class="section-desc">
-            Product updates, engineering insights, and zero spam. Unsubscribe
-            anytime.
+           Let’s talk about your project and how I can help you build a fast, effective solution.
           </p>
-          <div class="subscribe-input-group">
+          <form action="https://formsubmit.co/alsoalan3@gmail.com" method="POST" class="subscribe-input-group">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            
             <input
               type="email"
-              placeholder="you@company.com"
+              name="email"
+              placeholder="Enter your work email"
               autocomplete="email"
+              required
             />
-            <button class="btn btn-primary">Subscribe</button>
-          </div>
-          <div class="subscribe-meta">
-            <span>
-              <svg
-                width="13"
-                height="13"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              6,200+ subscribers
-            </span>
-            <span>
-              <svg
-                width="13"
-                height="13"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              Monthly digest
-            </span>
-            <span>
-              <svg
-                width="13"
-                height="13"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              Unsubscribe anytime
-            </span>
-          </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
@@ -1257,20 +1312,18 @@
       <div class="container">
         <div class="footer-row-links">
           <a href="#features">Features</a>
+          <span class="footer-link-dot"></span> 
+          <a href="#projects">Projects</a>
           <span class="footer-link-dot"></span>
-          <a href="#pricing">Pricing</a>
-          <span class="footer-link-dot"></span>
-          <a href="#" onclick="return false;">Documentation</a>
-          <span class="footer-link-dot"></span>
-          <a href="#" onclick="return false;">Blog</a>
-          <span class="footer-link-dot"></span>
-          <a href="#" onclick="return false;">Partners</a>
+          <a href="#pricing">Pricing</a> 
+          <!-- Removed Documentation, Blog, Partners as they are less relevant for a personal portfolio -->
+
         </div>
         <div class="footer-row-bottom">
           <p class="footer-copy">
-            Copyright &copy; 2026 Ultrax. Design:
-            <a href="https://templatemo.com" target="_blank" rel="nofollow"
-              >TemplateMo</a
+            &copy; 2026 AKRAM. All rights reserved. Design:
+            <a href="https://personalspaceprofolio.netlify.app/" target="_blank" rel="nofollow"
+              >SpaCe | Akram.dev</a
             >
           </p>
           <div class="footer-right">
@@ -1313,10 +1366,7 @@
               </a>
             </div>
             <span class="separator"></span>
-            <div class="footer-legal">
-              <a href="#" onclick="return false;">Privacy</a>
-              <a href="#" onclick="return false;">Terms</a>
-            </div>
+
           </div>
         </div>
       </div>
